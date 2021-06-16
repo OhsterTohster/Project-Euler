@@ -2,7 +2,7 @@
 
 # A prime factor is a factor that is a prime number
 
-#tbf just throw the number into factordb and that works too lmao
+# tbf just throw the number into factordb and that works too lmao
 
 num = 600851475143
 largestNumber = 0

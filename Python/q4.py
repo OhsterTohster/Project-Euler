@@ -1,4 +1,4 @@
-#Find the largest palindrome made from the product of two 3-digit numbers.
+# Find the largest palindrome made from the product of two 3-digit numbers.
 
 # 3 digit number means 100 to 999 inclusive
 largestPalindrome = 0
