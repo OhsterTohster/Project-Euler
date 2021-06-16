@@ -2,7 +2,7 @@
 # From the problem, it may seem like an easy bruteforce at first, which does work, but optimisations can be made.
 from timeit import default_timer as timer
 def main():
-    bruteForce1()
+    #bruteForce1()
     bruteForce2()
 
 def bruteForce1(): #takes 21.4690071 seconds 
