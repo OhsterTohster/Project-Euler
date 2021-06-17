@@ -4,6 +4,7 @@
 int main(void)  {
     int result = solve();
     printf("%i", result);
+    return 0;
 }
 
 int solve() {
