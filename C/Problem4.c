@@ -3,15 +3,15 @@
 #include<stdio.h>
 #include<string.h>
 
-long int solve() {
+int solve() {
     
-    long int largestPalindrome = 0;
+    int largestPalindrome = 0;
     for (int i = 100; i < 1000; i++) {
         for (int j = 100; j < 1000; j++) {
-            long int product = i * j;
-            char str[7];
+            int product = i * j;
+            char str[7] = "";
             sprintf(str, "%ld", product);
-            char reverse[7];
+            char reverse[7] = "";
             int reverseIndex = 0;
             for (int index = strlen(str) -1; index >=0; index--) {
                 
@@ -19,11 +19,6 @@ long int solve() {
                 reverseIndex = reverseIndex + 1;
                 
             }
-           // printf(str);
-            
-            //printf("\n");
-            //printf(reverse); 
-            //printf("\n");
             
             if (strcmp(str,reverse) == 0) {
                 if (product > largestPalindrome) {
@@ -36,7 +31,7 @@ long int solve() {
     return largestPalindrome;
 }
 int main() {
-    long int result = solve();
-    printf("%ld", result);
+    int result = solve();
+    printf("%d", result);
     return 0;
 }
